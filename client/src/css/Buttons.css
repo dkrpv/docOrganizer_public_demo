@@ -1,0 +1,76 @@
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: inherit;
+  position: absolute;
+}
+
+.back-button {
+  position: relative;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #467afd;
+  background-color: #d0d0d0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back-button:hover {
+  background-color: #5c5c5c;
+}
+
+.back-button::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-left: 4px solid #0078d7;
+  border-top: 4px solid #0078d7;
+  transform: rotate(-45deg);
+  transition: border-color 0.3s ease;
+}
+
+.back-button:hover::before {
+  border-left-color: #fff;
+  border-top-color: #fff;
+}
+
+.remove-button {
+  margin-left: 10px;
+  background-color: #ff8f87;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #822b2b;
+}
