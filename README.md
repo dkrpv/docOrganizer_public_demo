@@ -15,6 +15,14 @@
 - Install and set up MongoDB Compass.
 - Start the MongoDB server (I used mongodb compass).
 
+### 3. Install Ollama
+
+### 4. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Node Library Installation
 
 ##### 1. Navigate to the app directory:
